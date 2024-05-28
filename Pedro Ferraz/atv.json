@@ -1,0 +1,23 @@
+[
+    {
+        "pessoa": "João",
+        "idade": 30,
+        "atividade": "Correr",
+        "tempo": 45,
+        "frequencia": 5
+    },
+    {
+        "pessoa": "Maria",
+        "idade": 25,
+        "atividade": "Nadar",
+        "tempo": 60,
+        "frequencia": 3
+    },
+    {
+        "pessoa": "Pedro",
+        "idade": 35,
+        "atividade": "Caminhar",
+        "tempo": 30,
+        "frequencia": 2
+    }
+]
