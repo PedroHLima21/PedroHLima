@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividades.css">
+</head>
+
+    <header>
+        <h1>Cadastro de Atividades</h1>
+    </header>
+<body>
+    <div class="Atividadesreg">
+        <form id="cadastroreg">
+        <label for="pessoa">Pessoa:</label>
+        <input
+            type="text"
+            name="pessoa"
+            id="pessoa"
+            class="input"
+        />
+        <label for="idade">Idade:</label>
+        <input
+            type="number"
+            name="idade"
+            id="idade"
+            min="0"
+            max="120"
+            class="input"
+        />
+        <label for="atividade">Atividade:</label>
+        <input
+            type="text"
+            name="atividade"
+            id="atividade"
+            class="input"
+        />
+        <label for="tempo">Tempo em minutos:</label>
+        <input
+            type="number"
+            name="tempo"
+            id="tempo"
+            min="0"
+            max="1440"
+            class="input"
+        />
+        <label for="frequencia">Frequencia(Dias da semana):</label>
+        <input
+            type="number"
+            name="frequencia"
+            id="frequencia"
+            min="1"
+            max="7"
+            class="input"
+        />
+        <button type="submit" id="btnEnviar">Enviar</button>
+    </form>
+
+
+    <script src="atv.js"></script>
+</body>
+</html>
